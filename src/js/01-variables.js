@@ -24,3 +24,11 @@ function ejemploLet() {
   console.log(y - x);
 }
 ejemploLet();
+
+//Const
+
+const helloworld3 = "Hola, Javascript con const";
+console.log(helloworld3);
+// No se puede reasignar una constante por eso se comenta la siguiente linea
+// helloworld3 = "Holaa de nuevo, javascript con const";
+// console.log(helloworld3);
