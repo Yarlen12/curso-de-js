@@ -36,6 +36,17 @@ console.log(enteroBig2);
 
 // 5. Imprime por consola el tipo de todas las variables
 
+console.log(typeof name);
+console.log(typeof number);
+console.log(typeof decimal);
+console.log(typeof soyEstudiante);
+console.log(typeof soyMaestro);
+console.log(typeof undefinedValue);
+console.log(typeof nullValor);
+console.log(typeof mySymbol);
+console.log(typeof enteroBig);
+console.log(typeof enteroBig2);
+
 // 6. A continuacion, modifica los valores de las variables por otros de mismo tipo
 
 // 7. A continuacion, modifica los valores de las variables por otros de distinto tipo
