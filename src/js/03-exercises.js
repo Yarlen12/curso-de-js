@@ -88,4 +88,18 @@ const BigInt2 = 12345678923456n;
 
 // 9. A continuacion, modifica los valores de las constantes
 
+/*
+ nombre = "Yarlen";
+ numero = 7;
+ decimal1 = 6 ;
+ soyEstudiante1 = false;
+ soyMaestro1 = true;
+ underfinedValor = "hola";
+ nullValor1 = 'nada;
+ mySymbol1 = Symbol("como estas");
+ BigInt = BigInt(89327932872398732);
+ BigInt2 = 82317893279823n;
+
+*/
+
 // 10. Comenta las lineas que produzcan algun tipo de error al ejecutarse
