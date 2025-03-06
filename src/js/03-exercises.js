@@ -62,6 +62,17 @@ enteroBig2 = 5678934278n;
 
 // 7. A continuacion, modifica los valores de las variables por otros de distinto tipo
 
+name = 5;
+number = false;
+decimal = "jiji";
+soyEstudiante = 0.5;
+soyMaestro = Symbol("mysymbol");
+undefinedValue = 3;
+nullValor = BigInt(57237237);
+mySymbol = 5678921928n;
+enteroBig = "nada";
+enteroBig2 = 6;
+
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
 // 9. A continuacion, modifica los valores de las constantes
