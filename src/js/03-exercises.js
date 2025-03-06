@@ -10,6 +10,17 @@ Es de varias lineas */
 
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
 
+let name = "Yarlen Almogabar";
+let number = 5;
+let decimal = 4.5;
+let soyEstudiante = true;
+let soyMaestro = false;
+let undefinedValue;
+let nullValor = null;
+let mySymbol = Symbol("mysymbol");
+let enteroBig = BigInt(733273268326912826219218721);
+let enteroBig2 = 8732632786237362732n;
+
 // 4. Imprime por consola el valor de todas las variables
 
 // 5. Imprime por consola el tipo de todas las variables
