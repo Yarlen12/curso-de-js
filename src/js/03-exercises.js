@@ -75,6 +75,17 @@ enteroBig2 = 6;
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
 
+const nombre = "Yarlen Almogabar";
+const numero = 5;
+const decimal1 = 9.8;
+const soyEstudiante1 = true;
+const soyMaestro1 = false;
+const underfinedValor = undefined;
+const nullValor1 = null;
+const mySymbol1 = Symbol("mysymbol");
+const BigInt = BigInt(123456789);
+const BigInt2 = 12345678923456n;
+
 // 9. A continuacion, modifica los valores de las constantes
 
 // 10. Comenta las lineas que produzcan algun tipo de error al ejecutarse
