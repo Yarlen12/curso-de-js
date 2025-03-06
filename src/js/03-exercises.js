@@ -49,6 +49,17 @@ console.log(typeof enteroBig2);
 
 // 6. A continuacion, modifica los valores de las variables por otros de mismo tipo
 
+name = "Yarlen";
+number = 8;
+decimal = 0.5;
+soyEstudiante = false;
+soyMaestro = true;
+undefinedValue = "No esta definido";
+nullValor = "nada";
+mySymbol = Symbol("Hola que tal soy un symbol");
+enteroBIg = BigInt(123456789);
+enteroBig2 = 5678934278n;
+
 // 7. A continuacion, modifica los valores de las variables por otros de distinto tipo
 
 // 8. Declara constantes con valores asociados a todos los tipos de datos primitivos
