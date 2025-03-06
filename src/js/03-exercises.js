@@ -4,6 +4,10 @@
 
 // 2. Escribe un comentario en varias lineas
 
+/* Hola
+Este comentario
+Es de varias lineas */
+
 // 3. Declara variables con valores asociados a todos los datos de tipo primitivos
 
 // 4. Imprime por consola el valor de todas las variables
