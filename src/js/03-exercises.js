@@ -23,6 +23,17 @@ let enteroBig2 = 8732632786237362732n;
 
 // 4. Imprime por consola el valor de todas las variables
 
+console.log(name);
+console.log(number);
+console.log(decimal);
+console.log(soyEstudiante);
+console.log(soyMaestro);
+console.log(undefinedValue);
+console.log(nullValor);
+console.log(mySymbol);
+console.log(enteroBig);
+console.log(enteroBig2);
+
 // 5. Imprime por consola el tipo de todas las variables
 
 // 6. A continuacion, modifica los valores de las variables por otros de mismo tipo
