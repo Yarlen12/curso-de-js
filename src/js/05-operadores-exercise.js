@@ -71,3 +71,5 @@ const isLove = true;
 isLove ? console.log("I love you") : console.log("Im not love you");
 
 // 10. Combina operadores aritmeticos, de comparacion y logicos.
+
+console.log((2 > 4 && 8 > 9) || 9 > 8);
