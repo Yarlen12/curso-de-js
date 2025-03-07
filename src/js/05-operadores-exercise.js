@@ -17,6 +17,20 @@ y--;
 console.log(y);
 
 // 2. Crea una variable para cada tipo de operacion de asignacion que haga uso de las variables utilizadas para las operaciones aritmeticas
+let a = 10;
+console.log(a);
+a += 10;
+console.log(a);
+a -= 10;
+console.log(a);
+a *= 10;
+console.log(a);
+a /= 10;
+console.log(a);
+a %= 10;
+console.log(a);
+a **= 10;
+console.log(a);
 
 // 3. Imprime 5 comparaciones verdades con diferentes operadores de comparacion
 
