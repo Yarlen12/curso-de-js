@@ -1,4 +1,20 @@
 // 1. Crea una variable para cada operacion aritmetica
+let y = 12;
+
+console.log(y + y);
+console.log(y - y);
+console.log(y / y);
+console.log(y * y);
+console.log(y ** y);
+console.log(y % y);
+console.log(y > y);
+console.log(y < y);
+
+y++;
+console.log(y);
+
+y--;
+console.log(y);
 
 // 2. Crea una variable para cada tipo de operacion de asignacion que haga uso de las variables utilizadas para las operaciones aritmeticas
 
