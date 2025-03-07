@@ -62,6 +62,8 @@ console.log((12 > 6 && 6 < 9) || 3 > 5);
 
 // 8. Añade alguna negacion
 
+console.log((8 > 9 && 4 > 5) || !(5 > 7));
+
 // 9. Utiliza el operador ternario
 
 // 10. Combina operadores aritmeticos, de comparacion y logicos.
