@@ -42,6 +42,12 @@ console.log(y === y);
 
 // 4. Imprime 5 comparaciones falsas con diferentes operadores de comparacion
 
+console.log(0 == false);
+console.log(0 === "");
+console.log(0 > " ");
+console.log(false >= 0);
+console.log(undefined <= null);
+
 // 5. Utiliza el operador logico and
 
 // 6. Utiliza el operador logico or
