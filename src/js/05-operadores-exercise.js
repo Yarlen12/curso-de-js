@@ -58,6 +58,8 @@ console.log(12 < 5 || 9 > 7);
 
 // 7. Combina ambos operadores logicos
 
+console.log((12 > 6 && 6 < 9) || 3 > 5);
+
 // 8. Añade alguna negacion
 
 // 9. Utiliza el operador ternario
