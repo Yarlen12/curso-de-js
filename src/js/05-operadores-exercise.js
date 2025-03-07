@@ -34,6 +34,12 @@ console.log(a);
 
 // 3. Imprime 5 comparaciones verdades con diferentes operadores de comparacion
 
+console.log(y > a);
+console.log(y < a);
+console.log(y >= "10");
+console.log(true == 12);
+console.log(y === y);
+
 // 4. Imprime 5 comparaciones falsas con diferentes operadores de comparacion
 
 // 5. Utiliza el operador logico and
