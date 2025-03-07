@@ -57,7 +57,7 @@ soyMaestro = true;
 undefinedValue = "No esta definido";
 nullValor = "nada";
 mySymbol = Symbol("Hola que tal soy un symbol");
-enteroBIg = BigInt(123456789);
+enteroBig = BigInt(123456789);
 enteroBig2 = 5678934278n;
 
 // 7. A continuacion, modifica los valores de las variables por otros de distinto tipo
