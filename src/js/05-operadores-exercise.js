@@ -66,4 +66,8 @@ console.log((8 > 9 && 4 > 5) || !(5 > 7));
 
 // 9. Utiliza el operador ternario
 
+const isLove = true;
+
+isLove ? console.log("I love you") : console.log("Im not love you");
+
 // 10. Combina operadores aritmeticos, de comparacion y logicos.
