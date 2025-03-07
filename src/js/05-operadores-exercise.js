@@ -50,6 +50,8 @@ console.log(undefined <= null);
 
 // 5. Utiliza el operador logico and
 
+console.log(12 > 10 && 3 < 10);
+
 // 6. Utiliza el operador logico or
 
 // 7. Combina ambos operadores logicos
