@@ -54,6 +54,8 @@ console.log(12 > 10 && 3 < 10);
 
 // 6. Utiliza el operador logico or
 
+console.log(12 < 5 || 9 > 7);
+
 // 7. Combina ambos operadores logicos
 
 // 8. Añade alguna negacion
