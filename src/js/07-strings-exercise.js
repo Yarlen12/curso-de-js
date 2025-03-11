@@ -41,3 +41,5 @@ console.log(ejercicio.includes("lineas"));
 console.log(ejercicio === Saludo);
 
 // 10. comprueba si dos strings tienen la misma longitud
+
+console.log(ejercicio.length === Saludo.length);
