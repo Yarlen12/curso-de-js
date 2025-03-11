@@ -15,6 +15,9 @@ console.log(Saludo[Saludo.length - 1]); // Para acceder al ultimo caracter de un
 
 // 4. Convierte a mayusculas y minusculas un string
 
+console.log(Saludo.toUpperCase());
+console.log(Saludo.toLowerCase());
+
 // 5. Crea una cadena de texto en varias lineas
 
 // 6. Interpola el valor de una variable en un string
