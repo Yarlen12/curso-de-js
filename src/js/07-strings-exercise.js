@@ -6,6 +6,8 @@ console.log(Saludo);
 
 // 2. Muestra la longitud de una cadena de texto
 
+console.log(Saludo.length);
+
 // 3. Muestra el primer y el utlimo caracter de un string
 
 // 4. Convierte a mayusculas y minusculas un string
