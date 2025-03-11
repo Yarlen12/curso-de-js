@@ -10,6 +10,9 @@ console.log(Saludo.length);
 
 // 3. Muestra el primer y el utlimo caracter de un string
 
+console.log(Saludo[0]);
+console.log(Saludo[Saludo.length - 1]); // Para acceder al ultimo caracter de un string
+
 // 4. Convierte a mayusculas y minusculas un string
 
 // 5. Crea una cadena de texto en varias lineas
