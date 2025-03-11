@@ -23,7 +23,7 @@ console.log(greeting.indexOf("Almogabar")); // Si no encuentra el caracter nos d
 console.log(greeting.includes("Almogabar")); // Nos da false porque no existe la palabra Almogabar en la variable greeting, nos dara respuestas booleanas.
 console.log(greeting.includes("Yarlen"));
 console.log(greeting.slice(0, 10)); // Nos da los caracteres que estan en la posicion 0 hasta el 10
-console.log(greeting.replace("Yarlen", "Almogabar")); // Reemplazara la palab ra Yarlen por Almogabar
+console.log(greeting.replace("Yarlen", "Almogabar")); // Reemplazara la palab ra Yarlen por Almogabar, replaceAll es para reemplazar todas las palabras
 
 // Template literals (plantillas literales)
 let message = `Hola, este es mi
