@@ -31,4 +31,4 @@ curso de Javascript`; // Con estas comillas invertidas podemos hacer saltos de l
 console.log(message); // Nos dara el mensaje en dos lineas.
 
 let email = "yarlen.alm@gmail.com";
-console.log(`Hola, ${myName}! Tu email es ${email}`); // Para que funcione tiene que llevar comillas invertidas y el signo de dolar y llaves para que se pueda interpretar la variable myName
+console.log(`Hola, ${myName}! Tu email es ${email}`); // Para que funcione tiene que llevar comillas invertidas y el signo de dolar y llaves para que se pueda interpretar la variable myName a esto se le llama interpolacion de variables
