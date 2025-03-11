@@ -20,6 +20,10 @@ console.log(Saludo.toLowerCase());
 
 // 5. Crea una cadena de texto en varias lineas
 
+let ejercicio = `Hola, esta es mi
+cadena de texto de varias lineas `;
+console.log(ejercicio);
+
 // 6. Interpola el valor de una variable en un string
 
 // 7. Reempleza todos los espacion en blanco de un string por guines
