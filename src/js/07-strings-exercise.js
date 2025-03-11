@@ -1,5 +1,9 @@
 // 1. Concatena dos cadenas de texto
 
+let myPhone = "66-77-25-49-40";
+let Saludo = "Hola, tu numero de telefono es" + " " + myPhone;
+console.log(Saludo);
+
 // 2. Muestra la longitud de una cadena de texto
 
 // 3. Muestra el primer y el utlimo caracter de un string
