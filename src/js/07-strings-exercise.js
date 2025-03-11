@@ -34,6 +34,8 @@ console.log(ejercicio.replaceAll(" ", "-"));
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
 
+console.log(ejercicio.includes("lineas"));
+
 // 9. Comprueba si dos strings son isguales
 
 // 10. Comprueba si dos strings tienes la misma longitud.
