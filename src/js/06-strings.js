@@ -10,7 +10,7 @@ console.log(typeof greeting);
 console.log(greeting.length); //Para obtener la medida de caracteres de un string.
 
 // Acceso a caracteres
-console.log(greeting[25]); // !
+console.log(greeting[25]); // !, para acceder a un caracter especifico, se pone entre corchete la posicion del caracter
 console.log(greeting[0]); // H
 console.log(greeting[1]); // o
 
