@@ -13,6 +13,7 @@ console.log(greeting.length); //Para obtener la medida de caracteres de un strin
 console.log(greeting[25]); // !, para acceder a un caracter especifico, se pone entre corchete la posicion del caracter
 console.log(greeting[0]); // H
 console.log(greeting[1]); // o
+console.log(greeting[greeting.length - 1]); // Para acceder al ultimo caracter
 
 // Metodos comunes
 console.log(greeting.toUpperCase()); // Convierte todo el string en mayusculas
