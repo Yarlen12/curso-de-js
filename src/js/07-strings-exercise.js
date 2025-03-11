@@ -26,6 +26,9 @@ console.log(ejercicio);
 
 // 6. Interpola el valor de una variable en un string
 
+let yourName = "Yarlen";
+console.log(`Hola, ${yourName}! que gusto verte por aqui`);
+
 // 7. Reempleza todos los espacion en blanco de un string por guines
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
