@@ -29,7 +29,8 @@ console.log(ejercicio);
 let yourName = "Yarlen";
 console.log(`Hola, ${yourName}! que gusto verte por aqui`);
 
-// 7. Reempleza todos los espacion en blanco de un string por guines
+// 7. Reempleza todos los espacion en blanco de un string por guiones
+console.log(ejercicio.replaceAll(" ", "-"));
 
 // 8. Comprueba si una cadena de texto contiene una palabra concreta
 
