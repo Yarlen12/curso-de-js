@@ -36,6 +36,8 @@ console.log(ejercicio.replaceAll(" ", "-"));
 
 console.log(ejercicio.includes("lineas"));
 
-// 9. Comprueba si dos strings son isguales
+// 9. Comprueba si dos strings son iguales
 
-// 10. Comprueba si dos strings tienes la misma longitud.
+console.log(ejercicio === Saludo);
+
+// 10. comprueba si dos strings tienen la misma longitud
