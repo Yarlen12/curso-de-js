@@ -2,6 +2,12 @@
 
 // 1. Imprime por consola tu nombre si una variable toma su valor
 
+let name = "Yarlen";
+
+if (name == "Yarlen") {
+  console.log(name);
+}
+
 // 2. Imprime por consola un mensaje si el usuario y contraseña concide con unos establecidos
 
 // 3. Verifica si un numero es porsitivo, negativo o cero e imprime un mensaje
