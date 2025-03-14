@@ -81,6 +81,11 @@ if (age >= 18) {
 }
 
 // 5. Usa el operador ternario para asignar el valor "adulto" o "menor" a una variable dependiendo de la edad
+let edad = 22;
+const mensaje =
+  edad >= 18 ? "Actualmente eres un adulto" : "Actualmente eres menor de edad";
+
+console.log(mensaje);
 
 // 6. Muestra en que estacion del año nos encontramos dependiendo del valor de una variable "mes"
 
