@@ -88,6 +88,36 @@ const mensaje =
 console.log(mensaje);
 
 // 6. Muestra en que estacion del año nos encontramos dependiendo del valor de una variable "mes"
+let mes = "abril";
+let estacion;
+
+if (mes == "enero") {
+  estacion = console.log("Es invierno! 🥶❄️");
+} else if (mes == "febrero") {
+  estacion = console.log("Es invierno! 🥶❄️");
+} else if (mes == "marzo") {
+  estacion = console.log("Es invierno! 🥶❄️");
+} else if (mes == "abril") {
+  estacion = console.log("Es primavera! 🌻");
+} else if (mes == "mayo") {
+  estacion == console.log("Es primavera! 🌻");
+} else if (mes == "junio") {
+  estacion == console.log("Es primavera! 🌻");
+} else if (mes == "julio") {
+  estacion == console.log("Es verano! 🏖️");
+} else if (mes == "agosto") {
+  estacion == console.log("Es verano! 🏖️");
+} else if (mes == "septiembre") {
+  estacion == console.log("Es verano! 🏖️");
+} else if (mes == "octubre") {
+  estacion == console.log("Es otoño! 🍂🍁");
+} else if (mes == "noviembre") {
+  estacion == console.log("Es otoño! 🍂🍁");
+} else if (mes == "diciembre") {
+  estacion == console.log("Es otoño! 🍂🍁");
+} else {
+  console.log("Lo siento, no existe esa estacion, intentalo en minusculas 🥲");
+}
 
 // 7. Muestra el numero de dias que tiene un mes dependiendo de la variable del ejercicio anterior
 
