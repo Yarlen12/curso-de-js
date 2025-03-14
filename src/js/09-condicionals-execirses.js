@@ -21,7 +21,19 @@ if (usuario == "Yarlen.Vazz") {
   console.log("Usuario o contraseña incorrectos intente de nuevo");
 }
 
-// 3. Verifica si un numero es porsitivo, negativo o cero e imprime un mensaje
+// 3. Verifica si un numero es positivo, negativo o cero e imprime un mensaje
+
+let positivo = 1;
+let negativo = -1;
+let cero = 0;
+
+if (positivo >= 1) {
+  console.log("Tu numero es positivo");
+} else if (negativo >= -9) {
+  console.log("Tu numero es negativo");
+} else if (cero == 0) {
+  console.log("Tu numero es cero");
+}
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuantos años le faltan
 
