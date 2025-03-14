@@ -121,6 +121,37 @@ if (mes == "enero") {
 
 // 7. Muestra el numero de dias que tiene un mes dependiendo de la variable del ejercicio anterior
 
+let month = "diciembre";
+let dias;
+
+if (month == "enero") {
+  dias = console.log("Enero tiene 31 dias! ");
+} else if (month == "febrero") {
+  dias = console.log("Febrero tiene 28 dias!");
+} else if (month == "marzo") {
+  dias = console.log("Marzo tiene 31 dias!");
+} else if (month == "abril") {
+  dias = console.log("Abril tiene 30 dias!");
+} else if (month == "mayo") {
+  dias == console.log("Mayo tiene 31 dias!");
+} else if (month == "junio") {
+  dias == console.log("Junio tiene 30 dias!");
+} else if (month == "julio") {
+  dias == console.log("Julio tiene 31 dias!");
+} else if (month == "agosto") {
+  dias == console.log("Agosto tiene 31 dias!");
+} else if (month == "septiembre") {
+  dias == console.log("Septiembre tiene 30 dias!");
+} else if (month == "octubre") {
+  dias == console.log("Octubre tiene 31 dias!");
+} else if (month == "noviembre") {
+  dias == console.log("Noviembre tiene 30 dias!");
+} else if (month == "diciembre") {
+  dias == console.log("Diciembre tiene 31 dias!");
+} else {
+  console.log("Lo siento, no existe ese mes, intentalo en minusculas 🥲");
+}
+
 // Switch
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
