@@ -32,7 +32,7 @@ if (positivo >= 1) {
 } else if (negativo >= -9) {
   console.log("Tu numero es negativo");
 } else if (cero == 0) {
-  console.log("Tu numero es cero");
+  console.log("Tu numero es cero!");
 }
 
 // 4. Verifica si una persona puede votar o no (mayor o igual a 18) e indica cuantos años le faltan
