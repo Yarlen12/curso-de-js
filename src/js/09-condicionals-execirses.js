@@ -156,6 +156,29 @@ if (month == "enero") {
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
 
+let idioma = "franceS";
+let saludo;
+
+switch (idioma) {
+  case "frances":
+    saludo = console.log("Bonjour, je parle français");
+    break;
+  case "italiano":
+    saludo = console.log("Ciao, parlo italiano");
+    break;
+  case "ingles":
+    saludo = console.log("Hi, I speak english");
+    break;
+  case "español":
+    saludo = "Hola, estoy hablando español";
+    break;
+
+  default:
+    saludo = console.log(
+      "Lo siento, ese idioma no se encuentra disponible. Los idiomas actuales son frances, italiano, ingles y español (si no funciona intenta en minusculas 😁)"
+    );
+}
+
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
