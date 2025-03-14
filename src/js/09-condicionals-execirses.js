@@ -181,4 +181,51 @@ switch (idioma) {
 
 // 9. Usa un switch para hacer de nuevo el ejercicio 6
 
+let months = "agosto";
+let station;
+
+switch (months) {
+  case "enero":
+    station = console.log("Es invierno! 🥶❄️");
+    break;
+  case "febrero":
+    station = console.log("Es invierno! 🥶❄️");
+    break;
+  case "marzo":
+    station = console.log("Es invierno! 🥶❄️");
+    break;
+  case "abril":
+    station = console.log("Es primavera! 🌻");
+    break;
+  case "mayo":
+    station = console.log("Es primavera! 🌻");
+    break;
+  case "junio":
+    station = console.log("Es primavera! 🌻");
+    break;
+  case "julio":
+    station = console.log("Es verano! 🏖️");
+    break;
+  case "agosto":
+    station = console.log("Es verano! 🏖️");
+    break;
+  case "septiembre":
+    station = console.log("Es verano! 🏖️");
+    break;
+  case "octubre":
+    station = console.log("Es otoño! 🍂🍁");
+    break;
+  case "noviembre":
+    station = console.log("Es otoño! 🍂🍁");
+    break;
+  case "diciembre":
+    station = console.log("Es otoño! 🍂🍁");
+    break;
+
+  default:
+    station = console.log(
+      "Lo siento, no existe esa estacion, intentalo en minusculas 🥲"
+    );
+}
+
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
