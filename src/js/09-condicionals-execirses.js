@@ -229,3 +229,49 @@ switch (months) {
 }
 
 // 10. Usa un switch para hacer de nuevo el ejercicio 7
+
+let meses = "diciembre";
+let dia;
+
+switch (meses) {
+  case "enero":
+    dias = console.log("Enero tiene 31 dias! ");
+    break;
+  case "febrero":
+    dias = console.log("Febrero tiene 28 dias!");
+    break;
+  case "marzo":
+    dias = console.log("Marzo tiene 31 dias!");
+    break;
+  case "abril":
+    dias = console.log("Abril tiene 30 dias!");
+    break;
+  case "mayo":
+    dias = console.log("Mayo tiene 31 dias!");
+    break;
+  case "junio":
+    dias = console.log("Junio tiene 30 dias!");
+    break;
+  case "julio":
+    dias = console.log("Julio tiene 31 dias!");
+    break;
+  case "agosto":
+    dias = console.log("Agosto tiene 31 dias!");
+    break;
+  case "septiembre":
+    dias = console.log("Septiembre tiene 30 dias!");
+    break;
+  case "octubre":
+    dias = console.log("Octubre tiene 31 dias!");
+    break;
+  case "noviembre":
+    dias = console.log("Noviembre tiene 30 dias!");
+    break;
+  case "diciembre":
+    dias = console.log("Diciembre tiene 31 dias!");
+    break;
+  default:
+    dias = console.log(
+      "Lo siento, no existe ese mes, intentalo en minusculas 🥲"
+    );
+}
