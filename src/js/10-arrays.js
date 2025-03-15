@@ -63,3 +63,33 @@ console.log(myArray);
 
 console.log(myArray.shift()); // Lo que hace shift es que te borra el primero, de esta forma lo elimina y lo devuelve
 console.log(myArray);
+
+myArray.unshift("Yarlen", "almogabar"); // Para agregar uno o mas elementos al principio del array
+console.log(myArray); // Como teniamos Almogabar solo, se agregaron los nuevos dos elementos que pusimos en el unshift que son Yarlen y almogabar
+
+// Length
+
+console.log(myArray.length);
+
+// clear
+
+// myArray = []; // para que se limpie o se borre es solo llamarlo de nuevo y poner un valor vacio
+myArray.length = 0; // Tambien se puede de esta forma, pero la mejor opcion es la de arriba
+console.log(myArray);
+
+// slice
+
+myArray.push("Yarlen", "Almogabar", "Yar", 22, true);
+let myNewArray = myArray.slice(1, 3); // devolver una copia superficial de una porcion, no se toma en cuenta el ultimo indice
+
+console.log(myArray);
+console.log(myNewArray); // solo se imprimira el 1 que es Almogabar, ya que la segunda opcion no la toma en cuenta. Recuerda que 0 es el primero que es Yarlen
+
+// Splice
+
+myArray.splice(2, 3); //Tomara el primero en este caso tomara el primero y el segundo y borrara dependiendo del segundo numero que pongas, en este caso borrara las 3 restantes
+console.log(myArray);
+
+myArray = ["Yarlen", "Almogabar", "Yar", 22, true];
+myArray.splice(1, 2, "Holllaalalalalalla"); // El uno lo agrega, el segundo lo elimina y el tercero lo elimina y lo reemplaza
+console.log(myArray);
