@@ -1,5 +1,10 @@
 // 1. Crea un array que almacena cinco animales
 
+let myArray = [];
+myArray = ["perro", "gato", "perico", "paloma", "tigre"];
+
+console.log(myArray);
+
 // 2. Añade dos mas, uno al principio y otro al final
 
 // 3. Elimina el que se encuentra en tercera posicion
