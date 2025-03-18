@@ -14,6 +14,9 @@ console.log(myArray);
 
 // 3. Elimina el que se encuentra en tercera posicion
 
+myArray.splice(2, 1);
+console.log(myArray);
+
 // 4. Crea un set que almacene cinco libros
 
 // 5. Añade dos mas, uno de ellos repetido
