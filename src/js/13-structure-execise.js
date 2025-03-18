@@ -26,6 +26,11 @@ console.log(mySet);
 
 // 5. Añade dos mas, uno de ellos repetido
 
+mySet.add("Heist");
+mySet.add("Boulevard");
+
+console.log(mySet);
+
 // 6. Elimina uno cocreto a tu eleccion
 
 // 7. Crea un mapa que asocie el numero del mes a su nombre
