@@ -63,4 +63,7 @@ console.log(myMap.get(5));
 
 // 9. Añade al mapa una clave con un array como que almacene los meses de verano
 
+myMap = new Map([["Meses del verano", ["Junio", "Julio", "Agosto"]]]);
+
+console.log(myMap);
 // 10. Crea un Array, transformalo a un set y almacenalo en un Map
