@@ -67,3 +67,10 @@ myMap = new Map([["Meses del verano", ["Junio", "Julio", "Agosto"]]]);
 
 console.log(myMap);
 // 10. Crea un Array, transformalo a un set y almacenalo en un Map
+
+mySet = new Set(myArray);
+console.log(mySet);
+
+let Mymap2 = new Map([["Animales", mySet]]);
+
+console.log(Mymap2);
