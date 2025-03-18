@@ -19,6 +19,17 @@ console.log(myArray);
 
 // 4. Crea un set que almacene cinco libros
 
+let mySet = new Set();
+mySet = new Set([
+  "Hush Hush",
+  "Boulevard",
+  "Alex",
+  "Las marcas de sara",
+  "El hilo",
+]);
+
+console.log(mySet);
+
 // 5. Añade dos mas, uno de ellos repetido
 
 // 6. Elimina uno cocreto a tu eleccion
