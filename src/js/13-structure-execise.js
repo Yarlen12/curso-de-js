@@ -7,6 +7,11 @@ console.log(myArray);
 
 // 2. Añade dos mas, uno al principio y otro al final
 
+myArray.unshift("leon");
+myArray.push("raton");
+
+console.log(myArray);
+
 // 3. Elimina el que se encuentra en tercera posicion
 
 // 4. Crea un set que almacene cinco libros
