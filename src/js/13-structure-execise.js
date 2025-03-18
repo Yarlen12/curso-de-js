@@ -59,6 +59,8 @@ console.log(myMap);
 
 // 8. Comprueba si el mes numero 5 existe en el map e imprime su valor
 
+console.log(myMap.get(5));
+
 // 9. Añade al mapa una clave con un array como que almacene los meses de verano
 
 // 10. Crea un Array, transformalo a un set y almacenalo en un Map
