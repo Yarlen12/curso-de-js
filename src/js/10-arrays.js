@@ -48,7 +48,7 @@ myArray = [];
 // push y pop
 
 myArray.push("Yarlen"); // Es la operacion que sirve para introducir elementos en el array
-myArray.push("Almogabar");
+myArray.push("Almogabar"); // se agregaran al final
 myArray.push("Yar");
 myArray.push(22);
 
