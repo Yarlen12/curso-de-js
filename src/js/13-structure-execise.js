@@ -32,6 +32,9 @@ mySet.add("Boulevard");
 console.log(mySet);
 
 // 6. Elimina uno cocreto a tu eleccion
+mySet.delete("Boulevard");
+
+console.log(mySet);
 
 // 7. Crea un mapa que asocie el numero del mes a su nombre
 
