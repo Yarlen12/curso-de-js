@@ -15,6 +15,10 @@ console.log(`La suma de los numeros del 1 al 100 es ${suma}`);
 
 // 3. Crea un bucle que imprima todos los numeros pares entre 1 y 50
 
+for (let i = 0; i < 51; i += 2) {
+  console.log(i);
+}
+
 // 4. Dado un Array de nombres, usa un bucle para imprimir cada nombre en la consola
 
 // 5. Escribe un bucle que cuente el numeros de vocales en una cadena de texto
