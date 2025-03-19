@@ -7,6 +7,11 @@ for (let i = 1; i < 21; i++) {
 }
 
 // 2. Crea un bucle que sume todos los numeros del 1 al 100 y muestre el resultado
+let suma = 0;
+for (let i = 0; i <= 100; i++) {
+  suma += i;
+}
+console.log(`La suma de los numeros del 1 al 100 es ${suma}`);
 
 // 3. Crea un bucle que imprima todos los numeros pares entre 1 y 50
 
