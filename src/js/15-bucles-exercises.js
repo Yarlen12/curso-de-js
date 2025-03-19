@@ -2,6 +2,10 @@
 
 // 1. Crea un bucle que imprima los numeros del 1 al 20
 
+for (let i = 1; i < 21; i++) {
+  console.log(i);
+}
+
 // 2. Crea un bucle que sume todos los numeros del 1 al 100 y muestre el resultado
 
 // 3. Crea un bucle que imprima todos los numeros pares entre 1 y 50
