@@ -29,6 +29,23 @@ for (let valor of nombres) {
 
 // 5. Escribe un bucle que cuente el numeros de vocales en una cadena de texto
 
+let cadena = "Hola, como estan?";
+const vocales = ["a", "e", "i", "o", "u", 1, 2];
+let contador = 0;
+
+// for (let i = 0; i < cadena.length; i++) {
+//   if (vocales.includes(cadena[i].toLowerCase())) {
+//     contador++;
+//   }
+// }
+
+for (const letra of cadena) {
+  if (vocales.includes(letra.toLocaleLowerCase())) {
+    contador++;
+  }
+}
+console.log(`Numero de vocales: ${contador}`);
+
 // 6. Dado un array de numeros, usa un bucle para multiplicar todos los numeros y mostrar el producto
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
