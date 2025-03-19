@@ -59,6 +59,10 @@ console.log(`El producto final es: ${producto}`);
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
 
+for (let i = 1; i < 10; i++) {
+  console.log(`5 x ${i} = ${5 * i}`);
+}
+
 // 8. Usa un bucle para invertir una cadena de texto
 
 // 9. Usa un bucle para generar los primeros 10 numeros de la secuencia de Fibonacci
