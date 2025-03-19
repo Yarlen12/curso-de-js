@@ -21,6 +21,12 @@ for (let i = 0; i < 51; i += 2) {
 
 // 4. Dado un Array de nombres, usa un bucle para imprimir cada nombre en la consola
 
+const nombres = ["Yarlen", "Alvaro", "Mario", "Maria", "Estrella"];
+
+for (let valor of nombres) {
+  console.log(valor);
+}
+
 // 5. Escribe un bucle que cuente el numeros de vocales en una cadena de texto
 
 // 6. Dado un array de numeros, usa un bucle para multiplicar todos los numeros y mostrar el producto
