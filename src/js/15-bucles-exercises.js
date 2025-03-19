@@ -30,6 +30,7 @@ for (let valor of nombres) {
 // 5. Escribe un bucle que cuente el numeros de vocales en una cadena de texto
 
 let cadena = "Hola, como estan?";
+
 const vocales = ["a", "e", "i", "o", "u", 1, 2];
 let contador = 0;
 
@@ -47,6 +48,14 @@ for (const letra of cadena) {
 console.log(`Numero de vocales: ${contador}`);
 
 // 6. Dado un array de numeros, usa un bucle para multiplicar todos los numeros y mostrar el producto
+
+let numeros = [1, 2, 3, 4, 5];
+let producto = 1; // debe inicializarse con el valor 1 porque estás calculando el producto de los elementos en el array numeros. Si inicializas producto con 0, cualquier número multiplicado por 0 dará como resultado 0, lo cual no es el comportamiento deseado.
+
+for (let i = 0; i < numeros.length; i++) {
+  producto *= numeros[i];
+}
+console.log(`El producto final es: ${producto}`);
 
 // 7. Escribe un bucle que imprima la tabla de multiplicar del 5
 
