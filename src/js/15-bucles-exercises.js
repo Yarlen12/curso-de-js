@@ -65,6 +65,14 @@ for (let i = 1; i < 10; i++) {
 
 // 8. Usa un bucle para invertir una cadena de texto
 
+const texto = "Hola que tal, estas? ";
+let invertir = "";
+
+for (let i = texto.length - 1; i >= 0; i--) {
+  invertir += texto[i];
+}
+console.log(`De reverso la palabra queda asi: ${invertir}`);
+
 // 9. Usa un bucle para generar los primeros 10 numeros de la secuencia de Fibonacci
 
 // 10. Dado un array de numeros, usa un bucle para crear un nuevo array que contenga solo los numeros mayores a 10
