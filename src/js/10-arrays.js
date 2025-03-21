@@ -21,7 +21,7 @@ myArray2 = new Array(1, 2, 3, 4); // Ahora de esta manera las dos funcionan exac
 
 console.log(myArray);
 console.log(myArray2);
-
+//   0         1           2      3   4
 myArray = ["Yarlen", "Almogabar", "Yar", 22, true];
 myArray2 = new Array("Yarlen", "Almogabar", "Yar", 22, true); // Siguen funcionando ambos de la misma forma, estas estructuras nos permiten almacenar lo que se nos de la gana
 
