@@ -74,5 +74,30 @@ for (let i = texto.length - 1; i >= 0; i--) {
 console.log(`De reverso la palabra queda asi: ${invertir}`);
 
 // 9. Usa un bucle para generar los primeros 10 numeros de la secuencia de Fibonacci
+let Fibonacci = [0, 1, 1, 2];
+let num1 = Fibonacci[Fibonacci.length - 2];
+let num2 = Fibonacci[Fibonacci.length - 1];
 
+for (let i = Fibonacci.length; i < 10; i++) {
+  const suma = num1 + num2;
+  num1 = num2;
+  num2 = suma;
+
+  Fibonacci[i] = suma;
+
+  //  num2 += num1
+  //   num2 = Fibonacci[i]
+}
+console.log(Fibonacci);
 // 10. Dado un array de numeros, usa un bucle para crear un nuevo array que contenga solo los numeros mayores a 10
+
+let myArray = [1, 2, 3, 10, 11];
+let nArray = [];
+
+for (let i = 0; i < myArray.length; i++) {
+  if (myArray[i] <= 9) {
+    continue;
+  }
+  nArray.push(myArray[i]);
+  console.log(nArray);
+}
