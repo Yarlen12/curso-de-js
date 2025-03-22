@@ -118,6 +118,9 @@ myArray.forEach(function (value) {
   // de manera mas larga, como ya tiene asignado un valor definido, ya tendra un valor en consola, sin necesidad de llamar mas abajo a la varible ()
   console.log(value);
 });
+myMap.forEach(function (values) {
+  console.log(values);
+});
 
 myArray.forEach((value) => console.log(value)); // De manera mas rapida
 
