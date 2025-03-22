@@ -26,6 +26,20 @@ console.log(mayor(myArray));
 
 // 3. Crea una funcion que reciba un string y devuelva el numero de vocales que contiene
 
+let saludo = "Hola como estas";
+const vocales = ["a", "e", "i", "o", "u"];
+
+function contarvocales(saludo) {
+  let cont = 0;
+  for (let i = 0; i < saludo.length; i++) {
+    if (vocales.includes(saludo[i].toLocaleLowerCase())) {
+      cont++;
+    }
+    return cont;
+  }
+  console.log(`Numero de vocales: ${cont}`);
+}
+
 // 4. Crea una funcion que reciba un array de strings y devuelva un nuevo array con las strings en mayusculas
 
 // 5. Crea una funcion que reciba un numero y devuelva true si es prime, y false en caso contrario
