@@ -5,10 +5,24 @@
 function suma(a, b) {
   console.log(a + b);
 }
-
 suma(5, 5);
 
 // 2. Crea una funcion que reciba un array de numeros y devuelva el mayor de ellos
+
+let myArray = [1, 2, 3, 4];
+
+function mayor(myArray) {
+  let mayor = myArray[0];
+
+  for (let i = 1; i < myArray.length; i++) {
+    if (myArray[i] > mayor) {
+      // Si el valor de myArray[i] es mayor que el valor actual de mayor, significa que hemos encontrado un número más grande, y debemos actualizar el valor de mayor.
+      mayor = myArray[i]; // Aqui actualizamos su valor, solo si la condicion se cumple
+    }
+  }
+  return mayor;
+}
+console.log(mayor(myArray));
 
 // 3. Crea una funcion que reciba un string y devuelva el numero de vocales que contiene
 
