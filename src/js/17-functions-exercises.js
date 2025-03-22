@@ -41,6 +41,15 @@ function contarvocales(saludo) {
 }
 
 // 4. Crea una funcion que reciba un array de strings y devuelva un nuevo array con las strings en mayusculas
+let newArray = ["hola como estas"];
+
+function mayusculas(newArray) {
+  for (let i = 0; i < newArray.length; i++) {
+    newArray[i] = newArray[i].toUpperCase();
+  }
+  return newArray;
+}
+console.log(mayusculas(newArray)); // NO LO OLVIDEEEES
 
 // 5. Crea una funcion que reciba un numero y devuelva true si es prime, y false en caso contrario
 
