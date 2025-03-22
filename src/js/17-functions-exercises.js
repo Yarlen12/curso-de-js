@@ -51,7 +51,21 @@ function mayusculas(newArray) {
 }
 console.log(mayusculas(newArray)); // NO LO OLVIDEEEES
 
-// 5. Crea una funcion que reciba un numero y devuelva true si es prime, y false en caso contrario
+// 5. Crea una funcion que reciba un numero y devuelva true si es primo, y false en caso contrario
+
+function Primo(num) {
+  if (num <= 1) {
+    return false;
+  }
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      // Aquí se está utilizando el operador de módulo (%). Este operador devuelve el residuo de la división de num entre i. Por ejemplo, 10 % 3 devolvería 1 porque 10 dividido por 3 es 3 con un residuo de 1. === 0: Esta parte del código está comprobando si el residuo de la operación anterior es igual a 0
+      return false;
+    }
+  }
+  return true;
+}
+console.log(Primo(5));
 
 // 6. Crea una funcion que reciba dos arryas y devuelva un nuevo array que contenga los elementos comunes entre ambos
 
