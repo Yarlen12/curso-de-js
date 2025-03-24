@@ -69,10 +69,68 @@ console.log(Primo(5));
 
 // 6. Crea una funcion que reciba dos arryas y devuelva un nuevo array que contenga los elementos comunes entre ambos
 
+let primerArray = ["Hola", "como", "estas"];
+let segundoArray = ["Hola", "como", "has", "estado"];
+
+function comunes(primerArray, segundoArray) {
+  return primerArray.filter((elemento) => segundoArray.includes(elemento));
+}
+console.log(comunes(primerArray, segundoArray));
+
 // 7. Crea una funcion que reciba un array de numeros y devuelva la suma de todos los numeros pares
+let numeros = [1, 2, 3, 4, 5, 6];
+
+function sumaPares(numeros) {
+  let suma = 0;
+  for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] % 2 === 0) {
+      suma += numeros[i];
+    }
+  }
+  return suma;
+}
+console.log(sumaPares(numeros));
 
 // 8. Crea una funcion que reciba un array de numeros y devuekva un nuevo array con cada numero elevado al cuadrado
+let numeroCd = [1, 2, 3, 4];
+
+function elevado(numeroCd) {
+  let numele = [];
+  for (let i = 0; i < numeroCd.length; i++) {
+    numele.push(numeroCd[i] ** 2);
+  }
+  return numele;
+}
+console.log(elevado(numeroCd));
 
 // 9. Crea una funcion que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden
+let cadena = "hola, mi nombre es Yarlen";
 
+function orden(cadena) {
+  let palabras = cadena.split(" ");
+
+  palabras.reverse();
+
+  return palabras.join(" ");
+}
+
+/*
+cadena.split(" "): Esto convierte la cadena "Hola, mi nombre es Yarlen" en un array de palabras ["Hola,", "mi", "nombre", "es", "Yarlen"].
+
+palabras.reverse(): Esto invierte el orden del array, obteniendo ["Yarlen", "es", "nombre", "mi", "Hola,"].
+
+palabras.join(" "): Esto convierte el array de nuevo en una cadena, separando las palabras por un espacio, produciendo "Yarlen es nombre mi Hola,".
+
+*/
+console.log(orden(cadena));
 // 10. Crea una funcion que calcule el factorial de un numero dados
+
+function factorial(n) {
+  let resultado = 1;
+
+  for (let i = 1; i <= n; i++) {
+    resultado *= i;
+  }
+  return resultado;
+}
+console.log(factorial(5));
