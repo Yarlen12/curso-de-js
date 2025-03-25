@@ -114,6 +114,11 @@ let person3 = {
   },
 };
 
+// Esto no esta en el curso, solo estaba comprobando que funcionaba correctamente
+// console.log(person3);
+// console.log(person3.job);
+// person3.job.work();
+
 let {
   name: name4,
   job: { name: jobName }, // Podemos destructurar en diferentes niveles de esta forma
@@ -121,7 +126,29 @@ let {
 console.log(name4);
 console.log(jobName);
 
-// Esto no esta en el curso, solo estaba comprobando que funcionaba correctamente
-// console.log(person3);
-// console.log(person3.job);
-// person3.job.work();
+// Propagacion (...) expandir elementos de un array o un objeto, a otro array o objeto
+
+// Sintaxis array
+
+let myArray2 = [...myArray, 5, 6];
+
+console.log(myArray2);
+
+// Copia de arrays
+let myArray3 = [...myArray]; // copia
+console.log(myArray3);
+
+// Combinacion de arrays
+
+let myArray4 = [...myArray, ...myArray2, ...myArray3];
+console.log(myArray4);
+
+// Sintaxis objects
+
+let person4 = { ...person, email: "yarlen.alm@gmail.com" };
+console.log(person4);
+
+// Copia de objects
+
+let person5 = { ...person };
+console.log(person5);
