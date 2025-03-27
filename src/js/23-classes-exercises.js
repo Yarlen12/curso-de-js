@@ -6,9 +6,7 @@ class Prop {
     this.alias = alias;
   }
 }
-
 let prop = new Prop("Yarlen", "Yar");
-
 console.log(prop);
 
 // 2. Añade un metodo a la clase que utilice las propiedades
