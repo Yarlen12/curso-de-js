@@ -1,5 +1,16 @@
 // 1. Crea una clase que reciba dos propiedades
 
+class Prop {
+  constructor(name, alias) {
+    this.name = name;
+    this.alias = alias;
+  }
+}
+
+let prop = new Prop("Yarlen", "Yar");
+
+console.log(prop);
+
 // 2. Añade un metodo a la clase que utilice las propiedades
 
 // 3. Muestra los valores de las propiedades e invoca a la funcion
