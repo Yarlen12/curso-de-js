@@ -117,4 +117,45 @@ console.log(person6.name);
 person6.bank = "new IBAN45678987";
 console.log(person6.bank);
 
-// Herencia
+// Herencia:  Nos sirve para heredar las propiedades y el comportamiento de una clase
+
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  sound() {
+    console.log("El animal emite un sonido generico");
+  }
+}
+class Dog extends Animal {
+  sound() {
+    // super.sound();
+    console.log("Guaaaaaau"); // Ahora solo a este le hara caso ya que lo sobreescribimos, pero solamente en dog funciona ya que esta en su clase (PARA QUE NO TE CONFUNDAS)
+  }
+
+  run() {
+    console.log("El perro corre");
+  }
+}
+
+class Fish extends Animal {
+  constructor(name, size) {
+    super(name); // super hace una llamada a su super clase, entonces cuando lo llamamos a super del constructor, porque recordar animal la clase de la que extiende ya tiene un constructor super nos dice que recibe un nombre, entonces nosotros podemos seguir heredando el comportamiento del padre
+    this.size = size;
+  }
+  swim() {
+    console.log("El pez nada");
+  }
+}
+
+let myDog = new Dog("Sandy");
+let myFish = new Fish("Pancho", 10);
+
+console.log(myDog);
+myDog.run();
+myDog.sound();
+
+myFish.swim();
+myFish.sound();
+console.log(myFish.name, myFish.size);
