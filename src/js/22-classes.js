@@ -161,3 +161,14 @@ myFish.sound();
 console.log(myFish.name, myFish.size);
 
 // Metodos estaticos
+
+class MathOperations {
+  static sum(a, b) {
+    return a + b;
+  }
+}
+
+console.log(MathOperations.sum(10, 3)); // hemos podido acceder a una operacion sin instanciar, significa que podemos llamar a estas funciones en las clases mismas
+
+// let myClass = new MathOperations();
+// console.log(myClass.sum(5, 10));
