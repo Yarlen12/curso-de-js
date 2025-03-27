@@ -159,3 +159,5 @@ myDog.sound();
 myFish.swim();
 myFish.sound();
 console.log(myFish.name, myFish.size);
+
+// Metodos estaticos
