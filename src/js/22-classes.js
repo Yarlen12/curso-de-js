@@ -116,3 +116,5 @@ console.log(person6.name);
 // Cambiar el valor, es igual que siempre
 person6.bank = "new IBAN45678987";
 console.log(person6.bank);
+
+// Herencia
