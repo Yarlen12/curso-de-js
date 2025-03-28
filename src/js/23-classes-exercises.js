@@ -46,6 +46,22 @@ metodoE.saludo(persona2.name);
 
 // 5. Haz uso del metodo estatico
 
+class methodE {
+  constructor(name, alias) {
+    this.name = name;
+    this.alias = alias;
+  }
+  greeting() {
+    console.log(`Hola mucho gusto, mi nombre es ${this.name}`);
+  }
+  static saludo(alias) {
+    console.log(`Mi apodo es ${alias} pero puedes llamarme como tu gustes`);
+  }
+}
+let persona3 = new methodE("Yarlen", "Yar");
+persona3.greeting();
+methodE.saludo(persona3.alias);
+
 // 6. Crea una clase que haga uso de herencia
 
 // 7. Crea una clase que haga uso de getters y setters
