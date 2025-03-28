@@ -64,6 +64,33 @@ methodE.saludo(persona3.alias);
 
 // 6. Crea una clase que haga uso de herencia
 
+class herencia {
+  constructor(celular) {
+    this.celular = celular;
+  }
+
+  sound() {
+    console.log(
+      `Acaba de llegar una notificacion a tu celular ${this.celular}`
+    );
+  }
+}
+class whatsapp extends herencia {
+  sound() {
+    console.log(
+      `Acabas de recibir un mensaje de whatsapp a tu ${this.celular}`
+    );
+  }
+}
+let myHerencia = new herencia("Iphone");
+let myWhats = new whatsapp("Iphone");
+
+console.log(myHerencia);
+console.log(myWhats);
+
+myHerencia.sound();
+myWhats.sound();
+
 // 7. Crea una clase que haga uso de getters y setters
 
 // 8. Modifica la clase que getters y setters para que use propiedades privados
