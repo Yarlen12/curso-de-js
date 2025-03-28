@@ -22,10 +22,13 @@ class propWithMethod {
     );
   }
 }
-let persona = new propWithMethod("Yarlen", "Yar");
-persona.presentation();
 
 // 3. Muestra los valores de las propiedades e invoca a la funcion
+
+let persona = new propWithMethod("Yarlen", "Yar");
+console.log(persona.name);
+console.log(persona.alias);
+persona.presentation();
 
 // 4. Añade un  metodo estatico a la primera clase
 
