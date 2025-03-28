@@ -32,6 +32,18 @@ persona.presentation();
 
 // 4. Añade un  metodo estatico a la primera clase
 
+class metodoE {
+  constructor(name) {
+    this.name = name;
+  }
+  static saludo(name) {
+    console.log(`Hola! mi nombre es ${name}, mucho gusto en conocerte`);
+  }
+}
+
+let persona2 = new metodoE("Yarlen");
+metodoE.saludo(persona2.name);
+
 // 5. Haz uso del metodo estatico
 
 // 6. Crea una clase que haga uso de herencia
