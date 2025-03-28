@@ -11,6 +11,20 @@ console.log(prop);
 
 // 2. Añade un metodo a la clase que utilice las propiedades
 
+class propWithMethod {
+  constructor(name, alias) {
+    this.name = name;
+    this.alias = alias;
+  }
+  presentation() {
+    console.log(
+      `La persona se presenta con su nombre y su alias ${this.name}, ${this.alias}`
+    );
+  }
+}
+let persona = new propWithMethod("Yarlen", "Yar");
+persona.presentation();
+
 // 3. Muestra los valores de las propiedades e invoca a la funcion
 
 // 4. Añade un  metodo estatico a la primera clase
