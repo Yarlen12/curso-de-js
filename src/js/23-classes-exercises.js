@@ -93,6 +93,49 @@ myWhats.sound();
 
 // 7. Crea una clase que haga uso de getters y setters
 
+class veterinaria {
+  #name;
+  #age;
+  #size;
+  constructor(name, size, age) {
+    this.#name = name;
+    this.#size = size;
+    this.#age = age;
+  }
+
+  get name() {
+    return this.#name;
+  }
+
+  get size() {
+    return this.#size;
+  }
+
+  get age() {
+    return this.#age;
+  }
+
+  set age(age) {
+    this.#age = age;
+  }
+  set size(size) {
+    this.#size = size;
+  }
+  informacion() {
+    console.log(
+      `Informacion veterinaria: el nombre de la mascota es ${
+        this.#name
+      }, su edad es de ${this.#age} años, su peso es de ${this.#size} kilos`
+    );
+  }
+}
+
+let HistorialM = new veterinaria("Sandy", 4, 12);
+HistorialM.age = 5;
+console.log(HistorialM);
+console.log(HistorialM.name);
+HistorialM.informacion();
+
 // 8. Modifica la clase que getters y setters para que use propiedades privados
 
 // 9. Utiliza los get y set y muestra sus valores
