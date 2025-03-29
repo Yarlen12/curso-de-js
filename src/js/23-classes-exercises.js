@@ -138,6 +138,118 @@ HistorialM.informacion();
 
 // 8. Modifica la clase que getters y setters para que use propiedades privados
 
+class veterinaria1 {
+  #name;
+  #age;
+  #size;
+  constructor(name, size, age) {
+    this.#name = name;
+    this.#size = size;
+    this.#age = age;
+  }
+
+  get name() {
+    return this.#name;
+  }
+
+  get size() {
+    return this.#size;
+  }
+
+  get age() {
+    return this.#age;
+  }
+
+  set age(age) {
+    this.#age = age;
+  }
+  set size(size) {
+    this.#size = size;
+  }
+  informacion() {
+    console.log(
+      `Informacion veterinaria: el nombre de la mascota es ${
+        this.#name
+      }, su edad es de ${this.#age} años, su peso es de ${this.#size} kilos`
+    );
+  }
+}
+
+let HistorialM1 = new veterinaria1("Sandy", 4, 12);
+
 // 9. Utiliza los get y set y muestra sus valores
 
+class editorial {
+  #name;
+  #age;
+  #author;
+
+  constructor(name, age, author) {
+    this.#name = name;
+    this.#age = age;
+    this.#author = author;
+  }
+
+  get name() {
+    return this.#name;
+  }
+
+  get age() {
+    return this.#age;
+  }
+
+  get author() {
+    return this.#author;
+  }
+
+  set age(age) {
+    this.#age = age;
+  }
+
+  informacion() {
+    console.log(
+      `El nombre del libro es ${this.#name}, el año en el que se lanzo es ${
+        this.#age
+      }, el nombre del autor u autora es ${this.#author}`
+    );
+  }
+}
+
+let libro = new editorial(
+  "El arte de ser nosotros",
+  "22 de enero del 2023",
+  "Inma Rubiales"
+);
+
+console.log(libro);
+libro.informacion();
+console.log(libro.name);
+console.log(libro.age);
+console.log(libro.author);
+
 // 10. Sobreescribe un metodo de una clase que utilice herencia
+
+class alarma {
+  constructor(hora, dia, mensajeT) {
+    this.hora = hora;
+    this.dia = dia;
+    this.mensajeT = mensajeT;
+  }
+
+  mensaje() {
+    console.log(`WAKEEEEEEEEEEEEEEEEEEEEEEEEEEE UPPPPPPPPPP`);
+  }
+}
+class newMensaje extends alarma {
+  mensaje() {
+    console.log(
+      `Despierta son las ${this.hora}, del dia ${this.dia} se hara tarde`
+    );
+  }
+}
+
+let nAlarm = new newMensaje("12:30am", "3/28/2025", "Despiertaaa");
+
+console.log(nAlarm);
+nAlarm.mensaje();
+// newMensaje.mensaje();
