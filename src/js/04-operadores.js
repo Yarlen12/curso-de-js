@@ -48,7 +48,7 @@ console.log(a == a);
 console.log(a === a); // Igualdad por identidad valor y tipo
 console.log(a === 6);
 console.log(a === "6");
-console.log(a != 6); // operador de desigualdad
+console.log(a != 6); // operador de desigualdad (Si es distinto)
 console.log(a !== "6"); // desigualdad por identidad valor y tipo
 console.log(0 == false);
 console.log(1 == false);
