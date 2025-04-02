@@ -32,6 +32,26 @@ try {
 
 // 4. Crea una excepcion personalizada
 
+class nombres extends Error {
+  constructor(message, name, alias) {
+    super(message);
+    this.name = name;
+    this.alias = alias;
+  }
+  saludo() {
+    console.log(
+      `Hola mi nombre es ${this.name} pero puedes llamarme ${this.alias}`
+    );
+  }
+}
+
+try {
+  throw new nombres("Este es un error personalizado", "Alvaro", "Balito");
+} catch (error) {
+  console.log(error.message);
+  error.saludo();
+}
+
 // 5. Lanza una excepcion personalizada
 
 // 6. Lanza varias excepciones segun una logica definida
