@@ -54,6 +54,26 @@ try {
 
 // 5. Lanza una excepcion personalizada
 
+class Phone extends Error {
+  constructor(message, marca, age) {
+    super(message);
+    this.marca = marca;
+    this.age = age;
+  }
+  especificaciones() {
+    console.log(
+      `La marca del celular es ${this.marca} y el año en que salio es ${this.age}`
+    );
+  }
+}
+
+try {
+  throw new Phone("Lanzamos una excepcion personalizada", "Iphone", "2025");
+} catch (error) {
+  console.log(error.message);
+  error.especificaciones();
+}
+
 // 6. Lanza varias excepciones segun una logica definida
 
 // 7. Captura varias excepciones en un mismo try-catch
