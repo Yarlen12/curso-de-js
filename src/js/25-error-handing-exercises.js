@@ -24,6 +24,12 @@ try {
 
 // 3. Lanza una excepcion generica
 
+try {
+  throw new Error("Este error es generico");
+} catch (error) {
+  console.log(error.message);
+}
+
 // 4. Crea una excepcion personalizada
 
 // 5. Lanza una excepcion personalizada
