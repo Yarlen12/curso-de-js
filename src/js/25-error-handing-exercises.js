@@ -1,5 +1,14 @@
 // 1. Captura una excepcion utilizando try-catch
 
+let myClass;
+
+try {
+  console.log(myClass);
+  console.log("Se ejecuta sin errores");
+} catch {
+  console.log("Se ha producido un error");
+}
+
 // 2. Capura una excepcion utilizando try-catch y finally
 
 // 3. Lanza una excepcion generica
