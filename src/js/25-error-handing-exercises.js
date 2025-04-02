@@ -9,7 +9,18 @@ try {
   console.log("Se ha producido un error");
 }
 
-// 2. Capura una excepcion utilizando try-catch y finally
+// 2. Captura una excepcion utilizando try-catch y finally
+
+let excepcion;
+
+try {
+  console.log(excepcion);
+  console.log("Se ejecuto sin errores");
+} catch {
+  console.log("Se produjo un error");
+} finally {
+  console.log("Este codigo siempre se ejecuta");
+}
 
 // 3. Lanza una excepcion generica
 
