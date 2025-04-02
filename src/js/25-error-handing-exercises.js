@@ -153,6 +153,80 @@ try {
 
 // 7. Captura varias excepciones en un mismo try-catch
 
+class Xbox extends Error {
+  constructor(message, name, age) {
+    super(message);
+    this.name = name;
+    this.age = age;
+  }
+  especificaciones() {
+    console.log(
+      `El nombre de la nueva consola es ${this.name}, y el año de lanzamiento sera en ${this.age}`
+    );
+  }
+}
+
+class Playstation extends Error {
+  constructor(message, name, age) {
+    super(message);
+    this.name = name;
+    this.age = age;
+  }
+  especificaciones() {
+    console.log(
+      `El nombre de la nueva consola es ${this.name}, y el año de lanzamiento sera en ${this.age}`
+    );
+  }
+}
+
+function exp(type) {
+  if (type === "xbox") {
+    throw new Xbox("Este es un tipo de error", "Xbox Series X", "2024");
+  } else if (type === "playstation") {
+    throw new Playstation("Este es un tipo de error", "PlayStation 5", "2024");
+  } else {
+    console.log("Consola desconocida");
+  }
+}
+try {
+  exp("xbox");
+} catch (error) {
+  console.log(error.message);
+  if (error instanceof Xbox) {
+    error.especificaciones();
+  } else if (error instanceof Playstation) {
+    error.especificaciones();
+  } else {
+    console.log("Error desconocido");
+  }
+}
+
+try {
+  exp("playstation");
+} catch (error) {
+  console.log(error.message);
+  if (error instanceof Xbox) {
+    error.especificaciones();
+  } else if (error instanceof Playstation) {
+    error.especificaciones();
+  } else {
+    console.log("Error desconocido");
+  }
+}
+
+try {
+  exp("nintendo");
+} catch (error) {
+  console.log(error.message);
+  if (error instanceof Xbox) {
+    error.especificaciones();
+  } else if (error instanceof Playstation) {
+    error.especificaciones();
+  } else {
+    console.log("Error desconocido");
+  }
+}
+
 // 8. Crea un bucle que intente transformar a float cada valor y capture y muestre los errores
 
 // 9. Crea una funcion que verifique si un objeto tiene una propiedad especifica y lanza una excepcion personal
