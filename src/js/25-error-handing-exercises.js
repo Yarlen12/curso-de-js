@@ -76,6 +76,81 @@ try {
 
 // 6. Lanza varias excepciones segun una logica definida
 
+class Tv extends Error {
+  constructor(message, marca, age) {
+    super(message);
+    this.marca = marca;
+    this.age = age;
+  }
+  esp() {
+    console.log(
+      `La marca del televisor es ${this.marca} y el año en el que se lanzo es ${this.age}`
+    );
+  }
+}
+
+class Computadora extends Error {
+  constructor(message, marca, age) {
+    super(message);
+    this.marca = marca;
+    this.age = age;
+  }
+  esp() {
+    console.log(
+      `La marca de la computadora es ${this.marca} y el año en el que se lanzo es ${this.age}`
+    );
+  }
+}
+
+function excepciones(tipo) {
+  if (tipo === "tv") {
+    throw new Tv("Este es un tipo de error", "Samsung", "2025");
+  } else if (tipo === "computadora") {
+    throw new Computadora("Este es un tipo de error en comp", "Dell", "2025");
+  } else {
+    throw new Error("Este dispositivo no existe");
+  }
+}
+
+try {
+  excepciones("tv");
+} catch (error) {
+  console.log(error.message);
+  if (error instanceof Tv) {
+    error.esp();
+  } else if (error instanceof Computadora) {
+    error.esp();
+  } else {
+    console.log("Error desconocido");
+  }
+}
+
+try {
+  excepciones("computadora");
+} catch (error) {
+  console.log(error.message);
+  if (error instanceof Tv) {
+    error.esp();
+  } else if (error instanceof Computadora) {
+    error.esp();
+  } else {
+    console.log("Error desconocido");
+  }
+}
+
+try {
+  excepciones("celular");
+} catch (error) {
+  console.log(error.message);
+  if (error instanceof Tv) {
+    error.esp();
+  } else if (error instanceof Computadora) {
+    error.esp();
+  } else {
+    console.log("Error desconocido");
+  }
+}
+
 // 7. Captura varias excepciones en un mismo try-catch
 
 // 8. Crea un bucle que intente transformar a float cada valor y capture y muestre los errores
