@@ -229,6 +229,22 @@ try {
 
 // 8. Crea un bucle que intente transformar a float cada valor y capture y muestre los errores
 
+const Valores = ["2.4", "Hola", "5", "yarlen", "Alvaro", "3.5"];
+
+for (let Valor of Valores) {
+  try {
+    let num = parseFloat(Valor); // El parsefloat es una función de JavaScript que convierte un texto (string) en un número decimal (float)
+    if (isNaN(num)) {
+      // Se usa isNaN() para comprobar si algo es un NaN, Nan es Not A Number( no es un numero)
+      throw new Error(`No se puede convertir ${Valor} a un numero`);
+    } else {
+      console.log(`Se ha convertido a numero ${Valor}`);
+    }
+  } catch (error) {
+    console.log(`Error: ${error.message}`);
+  }
+}
+
 // 9. Crea una funcion que verifique si un objeto tiene una propiedad especifica y lanza una excepcion personal
 
 // 10. Crea una funcion que realice reintentos en caso de error hasta un maximo de 10
