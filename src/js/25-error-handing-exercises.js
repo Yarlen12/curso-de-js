@@ -283,3 +283,35 @@ try {
 }
 
 // 10. Crea una funcion que realice reintentos en caso de error hasta un maximo de 10
+
+function reintentos(funcion, maxIn = 10) {
+  let intentos = 0;
+
+  while (intentos < maxIn) {
+    try {
+      console.log(`Intento ${intentos + 1}...`);
+      funcion(); // Para ejecutar la operacion
+      console.log(`Operacion exitosa!`);
+      return;
+    } catch (error) {
+      intentos++;
+      console.log(`Error en el intento ${intentos}: ${error.message}`);
+
+      if (intentos === maxIn) {
+        console.log(`Se alcanzo el maximo de intentos sin exitos`);
+      }
+    }
+  }
+}
+
+function errorRandom() {
+  if (Math.random() < 0.7) {
+    // 80% de probabilidad de fallos
+    throw new Error(`Fallo aleatorio lo siento`);
+  }
+  console.log(
+    `La funcion se ejecuto correctamente, felicidades tienes suerte!`
+  );
+}
+
+reintentos(errorRandom);
