@@ -247,4 +247,39 @@ for (let Valor of Valores) {
 
 // 9. Crea una funcion que verifique si un objeto tiene una propiedad especifica y lanza una excepcion personal
 
+class PropNE extends Error {
+  constructor(message, propiedad) {
+    super(message);
+    this.propiedad = propiedad;
+  }
+  mensajeprop() {
+    console.log(`La propiedad ${this.propiedad} no se encontro en el objeto`);
+  }
+}
+
+const datos = {
+  nombre: "Yarlen",
+  edad: "22",
+  alias: "Yar",
+};
+
+function Vpropiedad(objeto, propiedad) {
+  if (!(propiedad in objeto)) {
+    throw new PropNE(`Propiedad no encontrada`, propiedad);
+  }
+  console.log(
+    `La propiedad ${propiedad} existe y su valor es ${objeto[propiedad]} `
+  );
+}
+try {
+  Vpropiedad(datos, "nombre");
+  Vpropiedad(datos, "ciudad");
+} catch (error) {
+  if (error instanceof PropNE) {
+    error.mensajeprop();
+  } else {
+    console.log(`Error desconocido:`, error.message);
+  }
+}
+
 // 10. Crea una funcion que realice reintentos en caso de error hasta un maximo de 10
