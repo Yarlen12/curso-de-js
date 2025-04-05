@@ -123,6 +123,12 @@ console.timeEnd("Tiempo");
 
 // 7. Valida con assert si un numero es positivo
 
+let positivo = 2;
+let negativo = 2;
+
+console.assert(positivo >= 0, "El numero que proporcionaste es Negativo.");
+console.assert(negativo < 0, "El numero que proporcionaste es positivo");
+
 // 8. Utiliza count
 
 // 9. Utiliza trace
