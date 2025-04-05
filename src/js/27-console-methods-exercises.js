@@ -98,6 +98,13 @@ try {
 
 // 4. Utiliza table
 
+let data = [
+  { Animales: "Conejo", Color: "Cafe" },
+  { Animales: "Cuyo", Color: "Blanco" },
+  { Animales: "Hamster", Color: "Beige" },
+];
+console.table(data);
+
 // 5. Utiliza group
 
 // 6. Utiliza time
