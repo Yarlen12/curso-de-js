@@ -148,3 +148,5 @@ function b() {
 a();
 
 // 10. Utiliza clear
+
+console.clear();
