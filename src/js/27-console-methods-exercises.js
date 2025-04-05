@@ -115,6 +115,12 @@ console.groupEnd();
 
 // 6. Utiliza time
 
+console.time("Tiempo");
+
+for (let i = 0; i < 400000; i++) {}
+
+console.timeEnd("Tiempo");
+
 // 7. Valida con assert si un numero es positivo
 
 // 8. Utiliza count
