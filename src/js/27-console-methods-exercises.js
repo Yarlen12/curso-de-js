@@ -1,5 +1,18 @@
 // 1. Crea una funcion que utilice error correctamente
 
+function suma(a, b) {
+  if (typeof a !== "number" || typeof b !== "number") {
+    throw new Error("Ambos tienen que ser numeros");
+  }
+  return a + b;
+}
+
+try {
+  console.log(suma(5, "b"));
+} catch (error) {
+  console.error(error.message);
+}
+
 // 2. Crea una funcion que utilice warn correctamente
 
 // 3. Crea una funcion que utilice info correctamente
