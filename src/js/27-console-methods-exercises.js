@@ -131,6 +131,11 @@ console.assert(negativo < 0, "El numero que proporcionaste es positivo");
 
 // 8. Utiliza count
 
+console.count("Hola");
+console.count("Yarlen");
+console.count("Hola");
+console.count("Adios");
+console.count("Adios");
 // 9. Utiliza trace
 
 // 10. Utiliza clear
