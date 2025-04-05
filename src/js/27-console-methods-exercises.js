@@ -107,6 +107,12 @@ console.table(data);
 
 // 5. Utiliza group
 
+console.group("Datos veterinaria:");
+console.log("Nombre: Yarlen's Veterinary");
+console.log("Direccion: Boulevard 18128");
+console.log("Telefono: #777-879-00");
+console.groupEnd();
+
 // 6. Utiliza time
 
 // 7. Valida con assert si un numero es positivo
