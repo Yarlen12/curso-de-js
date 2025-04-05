@@ -64,6 +64,38 @@ try {
 }
 // 3. Crea una funcion que utilice info correctamente
 
+class Celular extends Error {
+  constructor(message, name) {
+    super(message);
+    this.name = name;
+  }
+
+  informacion() {
+    console.info(
+      `Hola!, tu celular ${this.name} ya esta listo para su entrega`
+    );
+  }
+}
+
+function cel(tipo) {
+  if (tipo === "celular") {
+    throw new Celular("Mensaje de entrega de celular enviado ✅", "Iphone");
+  } else {
+    console.error("Mensaje no enviado, ocurrio un error ❌");
+  }
+}
+
+try {
+  cel("celular");
+} catch (error) {
+  console.log(error.message);
+  if (error instanceof Celular) {
+    error.informacion();
+  } else {
+    console.error("Error desconocido");
+  }
+}
+
 // 4. Utiliza table
 
 // 5. Utiliza group
