@@ -138,4 +138,13 @@ console.count("Adios");
 console.count("Adios");
 // 9. Utiliza trace
 
+function a() {
+  b();
+}
+function b() {
+  console.trace("Ejecutando...");
+}
+
+a();
+
 // 10. Utiliza clear
