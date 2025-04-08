@@ -8,6 +8,8 @@ console.log(suma(5, 10));
 
 // 2. Exportan una constante
 
+export const name = "Yarlen";
+
 // 3. Exporta una clase
 
 // 4. Importa una funcion
