@@ -1,6 +1,12 @@
-import { suma, name } from "./31-modules-exercises.mjs";
+import { suma, name, Nombres } from "./31-modules-exercises.mjs";
 
 console.log(suma(5, 10));
 
 // 2.
 console.log(name);
+
+// 3.
+
+let nombres = new Nombres("Yarlen", "Alvaro");
+
+nombres.saludo();
