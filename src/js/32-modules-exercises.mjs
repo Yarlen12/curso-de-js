@@ -31,6 +31,12 @@ animal.razon();
 
 // 7.
 
-const { edades } = defaultFunction();
-let edadd = new edades(22, 23);
-edadd.greeting();
+// const { edades } = defaultFunction();
+// let edadd = new edades(22, 23);
+// edadd.greeting();
+
+// 8.
+const { nameAnimal, Data } = defaultFunction();
+let data = new Data("Yarlen", "Almogabar", 23);
+
+data.datosre();
