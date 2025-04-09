@@ -35,6 +35,25 @@ export const edad = "Tienes 22 años";
 
 // 6. Importa una clase
 
+export class Animales {
+  constructor(perro, gato) {
+    this.perro = perro;
+    this.gato = gato;
+  }
+
+  ladrido() {
+    return `El ${this.perro} esta ladrando`;
+  }
+
+  maullido() {
+    return `El ${this.gato} esta maullando`;
+  }
+
+  razon() {
+    console.log(`${this.ladrido()} y ${this.maullido()} porque tienen hambre`);
+  }
+}
+
 // 7. Exporta una funcion, una constante y una clase por defecto
 
 // 8. Importa una funcion, una constante y una clase por defecto
