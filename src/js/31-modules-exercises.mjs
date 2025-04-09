@@ -25,6 +25,10 @@ export class Nombres {
 
 // 4. Importa una funcion
 
+export function resta(a, b) {
+  return a - b;
+}
+
 // 5. Importa una constante
 
 // 6. Importa una clase
