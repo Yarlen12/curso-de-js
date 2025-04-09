@@ -56,25 +56,49 @@ export class Animales {
 
 // 7. Exporta una funcion, una constante y una clase por defecto
 
+// export default function defaultFunction() {
+//   const nombre1 = "Yarlen";
+//   class edades {
+//     constructor(edad1, edad2) {
+//       this.edad1 = edad1;
+//       this.edad2 = edad2;
+//     }
+
+//     greeting() {
+//       console.log(
+//         `Hola, la edad de la primera persona es ${this.edad1} y el de la segunda persona es ${this.edad2}`
+//       );
+//     }
+//   }
+
+//   return { nombre1, edades };
+// }
+
+// const { edades } = defaultFunction();
+// let edadd = new edades(22, 23);
+// edadd.greeting();
+
+// 8. Importa una funcion, una constante y una clase por defecto
+
 export default function defaultFunction() {
-  const nombre1 = "Yarlen";
-  class edades {
-    constructor(edad1, edad2) {
-      this.edad1 = edad1;
-      this.edad2 = edad2;
+  const nameAnimal = "Sandy";
+
+  class Data {
+    constructor(namep, apellido, edadp) {
+      this.namep = namep;
+      this.apellido = apellido;
+      this.edadp = edadp;
     }
 
-    greeting() {
+    datosre() {
       console.log(
-        `Hola, la edad de la primera persona es ${this.edad1} y el de la segunda persona es ${this.edad2}`
+        `Hola! tu nombre y apellido es ${this.namep} ${this.apellido} y edad es ${this.edadp} años `
       );
     }
   }
 
-  return { nombre1, edades };
+  return { nameAnimal, Data };
 }
-
-// 8. Importa una funcion, una constante y una clase por defecto
 
 // 9. Exporta una funcion, una constante y una clase desde una carpeta
 
