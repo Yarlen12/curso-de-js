@@ -1,4 +1,4 @@
-import {
+import defaultFunction, {
   suma,
   name,
   Nombres,
@@ -28,3 +28,9 @@ console.log(edad);
 let animal = new Animales("perro", "gato");
 
 animal.razon();
+
+// 7.
+
+const { edades } = defaultFunction();
+let edadd = new edades(22, 23);
+edadd.greeting();
