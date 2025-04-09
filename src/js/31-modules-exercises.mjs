@@ -102,4 +102,14 @@ export default function defaultFunction() {
 
 // 9. Exporta una funcion, una constante y una clase desde una carpeta
 
+import { Video } from "./31-09-exercise/09-exercise.mjs";
+
+let video = new Video(
+  "Mi primer vlog",
+  "Comedia",
+  "Relata su vida en un video con emocion de ser su primer vlog"
+);
+
+video.bet();
+
 // 10. Importa una funcion, una constante y una clase desde un directorio diferente al anterior
