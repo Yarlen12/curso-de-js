@@ -113,3 +113,11 @@ let video = new Video(
 video.bet();
 
 // 10. Importa una funcion, una constante y una clase desde un directorio diferente al anterior
+
+import { Carrito, year, division } from "./31-10-exercise/10-exercise.mjs";
+
+let carrito = new Carrito("Iphone 15", "$25,000.00");
+
+carrito.mensaje();
+console.log(year);
+console.log(division(4, 10));
