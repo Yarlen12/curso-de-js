@@ -1,4 +1,4 @@
-import { suma, name, Nombres, resta } from "./31-modules-exercises.mjs";
+import { suma, name, Nombres, resta, edad } from "./31-modules-exercises.mjs";
 
 console.log(suma(5, 10));
 
@@ -13,3 +13,6 @@ nombres.saludo();
 
 // 4.
 console.log(resta(10, 5));
+
+// 5.
+console.log(edad);
