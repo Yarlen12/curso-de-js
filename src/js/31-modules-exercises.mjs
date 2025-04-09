@@ -31,6 +31,8 @@ export function resta(a, b) {
 
 // 5. Importa una constante
 
+export const edad = "Tienes 22 años";
+
 // 6. Importa una clase
 
 // 7. Exporta una funcion, una constante y una clase por defecto
